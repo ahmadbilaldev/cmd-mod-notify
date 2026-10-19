@@ -1,0 +1,33 @@
+{
+	"name": "cmd-mod-notify",
+	"version": "0.0.1",
+	"description": "Desktop notifications and sounds when the agent finishes, fails, or needs you",
+	"type": "module",
+	"license": "MIT",
+	"author": "Ahmad Bilal",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ahmadbilaldev/cmd-mod-notify.git"
+	},
+	"homepage": "https://github.com/ahmadbilaldev/cmd-mod-notify#readme",
+	"bugs": {
+		"url": "https://github.com/ahmadbilaldev/cmd-mod-notify/issues"
+	},
+	"keywords": [
+		"cmd-mod",
+		"notifications",
+		"sound",
+		"desktop"
+	],
+	"commandcode": {
+		"mods": [
+			"./index.ts"
+		]
+	},
+	"files": [
+		"index.ts",
+		"sounds",
+		"README.md",
+		"LICENSE"
+	]
+}
